@@ -55,9 +55,10 @@ Development files for mauikit-archiver
 %install
 %ninja_install -C build
 
-%find_lang mauikitarchiver
+#find_lang mauikitarchiver
 
-%files -n %{libname} -f mauikitarchiver.lang
+%files -n %{libname} 
+#-f mauikitarchiver.lang
 #{_libdir}/libMauiKitTerminal4.so.%{major}*
 #{_libdir}/qt6/qml/org/mauikit/
 
