@@ -59,10 +59,11 @@ Development files for mauikit-archiver
 
 %files -n %{libname} 
 #-f mauikitarchiver.lang
-#{_libdir}/libMauiKitTerminal4.so.%{major}*
-#{_libdir}/qt6/qml/org/mauikit/
+%{_libdir}/libMauiKitArchiver4.so.%{major}*
+%{_libdir}/qt6/qml/org/mauikit/archiver/
 
 %files -n %{devname}
-#{_includedir}/MauiKit4/Terminal/
-#{_libdir}/cmake/MauiKitTerminal4/
-#{_libdir}/libMauiKitTerminal4.so
+%{_includedir}/MauiKit4/Accounts/
+%{_includedir}/MauiKit4/Archiver/
+%{_libdir}/cmake/MauiKitArchiver4/
+%{_libdir}/libMauiKitArchiver4.so
