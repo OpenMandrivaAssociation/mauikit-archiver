@@ -5,7 +5,7 @@
 %define devname %mklibname -d MauiKitArchiver
 
 Name:		mauikit-archiver
-Version:	4.0.0
+Version:	4.0.1
 Release:	%{?snapshot:0.%{snapshot}.}1
 Summary:	Maui plugin for online archived/compressed files management
 Url:		https://invent.kde.org/maui/mauikit-archiver/
